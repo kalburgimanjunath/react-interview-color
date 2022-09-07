@@ -53,14 +53,10 @@ export default function App() {
     fetchGoogleImageColors();
   }, [searchColor]);
   return (
-    <div>
+    <>
       <Searchbox onChange={handleChange} value={searchColor} />
-      <div>
-        <div>
-          {/* <ColorGrid title={ColorGridTitle} colors={colors} /> */}
-          {/* <RelatedGrid title={ImageGridTitle} google_colors={google_colors} /> */}
-        </div>
-      </div>
-    </div>
+      <ColorGrid title={ColorGridTitle} colors={colors} />
+      <RelatedGrid title={ImageGridTitle} google_colors={google_colors} />
+    </>
   );
 }
