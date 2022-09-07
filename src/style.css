@@ -17,6 +17,8 @@ body {
 .searchbox input {
   padding: 20px;
   font-size: 20px;
+  border-radius: 20px;
+  border: 1px solid #d6d6d6;
 }
 .grid {
   display: flex;

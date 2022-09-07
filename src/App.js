@@ -51,7 +51,7 @@ export default function App() {
   useEffect(() => {
     fetchColors();
     fetchGoogleImageColors();
-  }, [searchColor]);
+  }, [searchColor, google_colors]);
   return (
     <>
       <Searchbox onChange={handleChange} value={searchColor} />
