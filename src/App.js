@@ -14,9 +14,6 @@ export default function App() {
       setSearchColor(val);
     }
   };
-  const findColor = (color) => {
-    return color;
-  };
 
   const fetchColors = async () => {
     const where = encodeURIComponent(
