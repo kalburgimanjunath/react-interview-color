@@ -5,7 +5,7 @@ export default function ColorGrid({ title, colors }) {
     <div>
       <h1 className="text-gradient">{title}</h1>
       <div>
-        {colors.length > 0 ? (
+        {colors && colors.length > 0 ? (
           <>
             {!colors ? (
               <div>{LOADING}</div>
