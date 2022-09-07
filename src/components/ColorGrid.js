@@ -1,5 +1,5 @@
 import React from 'react';
-import { LOADING } from './config/constants';
+import { LOADING } from '../config/constants';
 export default function ColorGrid({ title, colors }) {
   return (
     <div>
